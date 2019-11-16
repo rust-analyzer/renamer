@@ -1,0 +1,10 @@
+[package]
+name = "renamer"
+version = "0.1.0"
+authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rls-analysis = { git = "https://github.com/rust-lang/rls.git" }
+rls-span = { git = "https://github.com/rust-lang/rls.git" }
+rls-vfs = { git = "https://github.com/rust-lang/rls.git" }
