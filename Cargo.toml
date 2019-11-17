@@ -5,6 +5,7 @@ authors = ["Aleksey Kladov <aleksey.kladov@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+anyhow = "1"
 rls-analysis = { git = "https://github.com/rust-lang/rls.git" }
-rls-span = { git = "https://github.com/rust-lang/rls.git" }
+rls-span = "0.5.2"
 rls-vfs = { git = "https://github.com/rust-lang/rls.git" }
